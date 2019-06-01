@@ -10,12 +10,14 @@
 
 ---------------------------------------------
 -- Functions:
--- 100 % AFK - Banking - Don't forget to setup figthing 
+-- 100 % AFK - Banking - Don't forget to setup fighting
 -- Fishes: Bar Rikain - Perche - Carpe d'Iem - Tanche - Anguille - Poisskaille
 ---------------------------------------------
 
 MAX_PODS = 95
 OPEN_BAGS = true 
+
+-- Open the drop bags auto and set 95% of total pods to return bank.
 
 GATHER = { 79, 265, 271, 273, 132, 267 }
 
