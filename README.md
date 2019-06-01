@@ -1,4 +1,4 @@
-# Dofus-Bot-Script
+# Lua Dofus Scripting - by Broil (forum alias)
 Algumas scripts em .lua do SnowBot para Dofus :)
 
 Feel free to use as you wish
