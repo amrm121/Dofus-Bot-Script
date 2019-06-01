@@ -1,25 +1,17 @@
 ---------------------------------------------
 -- Script by Broil aka amrm121
 ---------------------------------------------
--- Type : Récolte / Gathering 
--- Zone : Frigost
--- Start at : Frigost Zaap 
--- Job : Fisherman / Pêcheur
----------------------------------------------
-
-
----------------------------------------------
 -- Functions:
 -- 100 % AFK - Banking - Don't forget to setup fighting
 -- Fishes: Bar Rikain - Perche - Carpe d'Iem - Tanche - Anguille - Poisskaille
 ---------------------------------------------
 
-MAX_PODS = 95
+MAX_PODS = 90
 OPEN_BAGS = true 
 
--- Open the drop bags auto and set 95% of total pods to return bank.
-
 GATHER = { 79, 265, 271, 273, 132, 267 }
+
+AUTO_DELETE = {  }
 
 function move()
 	return {
@@ -56,7 +48,7 @@ function move()
 		{ map="-66,-53", gather = true, path = "top" },
 		{ map="-66,-54", path = "right" },
 		{ map="-65,-54", path = "right" },
-		{ map="-64,-54", path = "down" },
+		{ map="-64,-54", path = "bottom" },
 		{ map="-64,-53", path = "right" },
 		{ map="-63,-53", path = "top" },
 		{ map="-63,-54", gather = true, path = "top" },
